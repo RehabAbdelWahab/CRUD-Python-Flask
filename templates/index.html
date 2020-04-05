@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class="btn btn-warning" role="alert">
+Tasks:</div><br>
+    {% if tasks|length < 1 %}
+          No tasks yet!
+     {% else%}
+    <div class="card">
+        <div class="card-body"> 
+             <table class="table table-striped">                    
+            <tr>
+                <th>Task Name</th>
+                <th>Actions</th>
+            </tr>
+            {% for task in tasks %}
+                <tr>
+                    <td>{{ task.content }}</td>
+                    <td>
+                        <a class="btn btn-danger" href="/delete/{{task.id}}">Delete</a>
+                        <a class="btn btn-success" href="/update/{{task.id}}">Edit</a>
+                    </td>                
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+    <br>
+    <div class="form-group">
+        <form action="/" method="POST">
+            <div class="form-group mx-sm-3 mb-2">                    
+                <input class="form-group mx-sm-3 mb-2" name="content" type="text">
+                <input value="Add Task" type="submit" class="btn btn-primary">
+            </div>
+    </form>
+    </div>
+
+</div>
+</div>
+{% endblock %}
