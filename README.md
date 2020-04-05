@@ -24,7 +24,7 @@ you will see sth like this:
 ![before add tasks](https://github.com/RehabAbdelWahab/CRUD-Python-Flask/blob/master/static/img/before%20adding%20tasks.PNG)
 
 # Tasks
-![tasks](https://github.com/RehabAbdelWahab/CRUD-Python-Flask/blob/master/static/img/edit%20tasks.PNG)
+![edit task](https://github.com/RehabAbdelWahab/CRUD-Python-Flask/blob/master/static/img/tasks.PNG)
 
 # Edit task
-![edit task](https://github.com/RehabAbdelWahab/CRUD-Python-Flask/blob/master/static/img/tasks.PNG)
+![tasks](https://github.com/RehabAbdelWahab/CRUD-Python-Flask/blob/master/static/img/edit%20tasks.PNG)
