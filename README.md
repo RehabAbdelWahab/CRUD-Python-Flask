@@ -3,8 +3,11 @@
 Create/ Read / Update / Delete tasks
 .
 
+# How to run:
 
-To run the project just pull it and run this CMD:
+To run the project just pull it
+Open the console and cd your project root directory
+and run this CMD:
 
 ```bash
 python app.py
