@@ -17,3 +17,16 @@ and go to:
 
  http://localhost:5000 
 
+Before add tasks
+
+![before add tasks](https://github.com/RehabAbdelWahab/CRUD-Python-Flask/blob/master/static/img/before%20adding%20tasks.PNG)
+
+Tasks
+
+![tasks](https://github.com/RehabAbdelWahab/CRUD-Python-Flask/blob/master/static/img/edit%20tasks.PNG)
+
+Edit task
+
+![edit task](https://github.com/RehabAbdelWahab/CRUD-Python-Flask/blob/master/static/img/tasks.PNG)
+
+
