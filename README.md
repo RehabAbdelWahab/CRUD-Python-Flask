@@ -31,3 +31,6 @@ you will see sth like this:
 
 # Edit task
 ![tasks](https://github.com/RehabAbdelWahab/CRUD-Python-Flask/blob/master/static/img/edit%20tasks.PNG)
+
+# Video demo
+https://youtu.be/RZJQ62UJjuY
