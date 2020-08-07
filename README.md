@@ -3,6 +3,17 @@
 Create/ Read / Update / Delete tasks
 .
 
+# Install the required libs:
+
+```bash
+pip install flask
+```
+
+```bash
+pip install flask_sqlalchemy
+```
+
+
 # How to run:
 
 To run the project just pull it
